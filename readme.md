@@ -18,6 +18,7 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 - run ```docker-compose up``` from the project root directory to load backend and frontend.
 
-- test backend at `http://localhost:3000/api/ping` and frontend at `http://localhost:3001/register`
+- If Docker is working correctly, the backend should be running and able to connect to your local database at `http://localhost:3000/api/ping`
 
-- you will able to create a new user if everything works fine.
+- check the frontend and make sure it’s connected to the backend. if everything is working properly, you’ll be able to create a new user on   `http://localhost:3001/register`
+
